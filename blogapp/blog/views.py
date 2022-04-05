@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 # Create your views here.
 
-class TestAPI(APIView):
+class SampleAPI(APIView):
     permission_classes = []
     def get(self, request):
         return Response({'hello':'fsadfasdfasd'})

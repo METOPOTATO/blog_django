@@ -7,7 +7,7 @@ from rest_framework.views import APIView
 class SampleAPI(APIView):
     permission_classes = []
     def get(self, request):
-        return Response({'hello':'fsadfasdfasd'})
+        return Response({'hello':'hello'})
     
     def post(self, request):
         return Response({'asdasda':'adadasd'})
